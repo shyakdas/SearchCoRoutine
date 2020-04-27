@@ -1,0 +1,11 @@
+<resources>
+    <string name="app_name">SearchWithCo-Routine</string>
+    <string name="request_successful">Request Successful</string>
+    <string name="loading">loading</string>
+    <string name="no_internet_error">No Internet</string>
+    <string name="something_went_wrong">Something went wrong</string>
+    <string name="json_field_error">Multiple JSON fields name error</string>
+    <string name="json_parsing_error">JSON parsing error</string>
+    <string name="connection_time_out">Connection time out</string>
+    <string name="host_name_error">Unable to reach the server</string>
+</resources>
