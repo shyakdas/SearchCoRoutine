@@ -8,9 +8,9 @@ import retrofit2.http.Query
 
 interface ApiService {
 
-    @GET("compassLocation/rest/address/autocomplete")
+    @GET(".")
     fun getAddressData(
         @Query("queryString") address: String,
         @Query("city") city: String
-    ): Deferred<Response<ApiResponse<BaseResponse>>>
+    ): Deferred<Response<BaseResponse>>
 }
